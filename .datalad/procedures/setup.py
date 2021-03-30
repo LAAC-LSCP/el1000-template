@@ -9,7 +9,7 @@ from datalad.distribution.dataset import require_dataset
 
 import argparse
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='setup the dataset siblings')
 parser.add_argument('path', help = 'path')
 parser.add_argument('--confidential', help = 'setup access to confidential data', action = 'store_true')
 
