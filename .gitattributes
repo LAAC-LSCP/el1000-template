@@ -3,4 +3,5 @@
 scripts/* annex.largefiles=nothing
 metadata/*.csv annex.largefiles=nothing
 recordings/* annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+README.md annex.largefiles=nothing
 
